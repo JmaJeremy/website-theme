@@ -100,7 +100,7 @@ Header top CSS
 Main site CSS
 -------------------------------------------------------------*/
 #sitelayout_type{ margin:0 auto;}
-.container{ width:1170px; margin:0 auto; position:relative;}
+.container{ width:1170px; margin:0 auto; position:relative; text-align:center;}
 .site-header{ width:100%; z-index:9999;}
 .site-header.siteinner{ position:relative;  }
 
@@ -173,8 +173,8 @@ h2.section-title{ font-size:32px; font-weight:800; text-align:center; margin-bot
 .shortdesc{ width:80%; margin:0 auto; margin-bottom:50px; text-align:center;}
 
 .pagefeaturecolumn{ position:relative; background-color:#fff;}
-.features_column{padding:20px; width:16.7%; float:left; margin:0 4% 0 0; position:relative; box-sizing:border-box; text-align:center;-webkit-border-radius: 5px;
--moz-border-radius:5px;border-radius: 5px;}
+.features_column{padding:20px; width:16.7%; margin:0 4% 0 0; position:relative; box-sizing:border-box; text-align:center;-webkit-border-radius: 5px;
+-moz-border-radius:5px;border-radius: 5px; display:inline-block;}
 .features_column .imagebox{ width:111px; height:111px; line-height:111px; overflow:hidden; margin:0 auto; box-sizing:border-box; border:solid 2px #c1331b;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;}
 .features_column .imagebox img{backface-visibility:hidden; height:48px; width:56px; vertical-align: middle;}
 .features_column h3{ font-size:18px; margin:10px 0; font-weight:800;}
